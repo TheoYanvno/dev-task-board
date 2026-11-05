@@ -1,0 +1,21 @@
+{
+  "name": "dev-task-board",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Task manager for developers in React: a Backlog to Done board with drag and drop, list and calendar views, priorities, tags and sprints.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs --serve",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "author": "Anthony Evo",
+  "license": "MIT"
+}
